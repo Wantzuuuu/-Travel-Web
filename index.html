@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旅遊網</title>
+    <!-- boot strap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- style css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header bg-cover">
+        <h1 class="text-center text-white">高雄資訊網</h1>
+        <div class="text-center sl-div">
+            <select name="" id="slId">
+                <option value="三民區">三民區</option>
+                <option value="內門區">內門區</option>
+                <option value="苓雅區">苓雅區</option>
+                <option value="新興區">新興區</option>
+                <option value="楠梓區">楠梓區</option>
+                <option value="左營區">左營區</option>
+                <option value="鼓山區">鼓山區</option>
+                <option value="前金區">前金區</option>
+                <option value="前鎮區">前鎮區</option>
+                <option value="旗津區">旗津區</option>
+                <option value="小港區">小港區</option>
+            </select>
+        </div>
+
+    </header>
+    <section class="d-flex justify-content-center hot">
+        <div class="hot-section">
+            <h5>熱門行政區</h5>
+            <div class="btn-section">
+                <button data-value="苓雅區" class="btn btn-style btn-purple">苓雅區</button>
+                <button data-value="三民區" class="btn btn-style btn-orange">三民區</button>
+                <button data-value="新興區" class="btn btn-style btn-yellow">新興區</button>
+                <button data-value="旗津區" class="btn btn-style btn-blue">旗津區</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="hr-box">
+    </div>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center" id="renderTitle">三民區</h1>
+            <div class="form-row" id="renderList">
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="all.js"></script>
+</body>
+
+</html>

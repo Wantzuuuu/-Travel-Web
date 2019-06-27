@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+.bg-cover{
+    width:100%;
+    height:155px;
+    background-size:cover;
+    background-position:center center;
+}
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+    bottom:19px;
+    right:19px;
+}
+/* header */
+.header{
+    background-image:url(./img/Hero.png);
+    width:100%;
+    height:380px;
+    padding:89px 0;
+}
+.sl-div{
+    margin-top:89px;
+}
+#slId{
+    width:452px;
+    height:48px;
+    border:3px solid white;
+    background-color:rgba(255,255,255,0.7);
+}
+/* hot-section */
+.hot{
+    margin-top:-25px;
+}
+.hot-section{
+    margin-bottom:49px;
+    padding:20px 25px;
+    width:800px;
+    height:112px;
+    background-color:white;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+.btn-section .btn-style{
+    width:130px;
+    height:42px;
+    color:white;
+    border-radius:5px;
+    margin-right:30px;
+}
+.btn-style.btn-purple{
+    background-color:rgba(138,130,204,1);
+}
+.btn-style.btn-purple:hover{
+    background-color:rgb(88, 82, 135);
+}
+.btn-style.btn-orange{
+    background-color:rgba(255,167,130,1);
+}
+.btn-style.btn-orange:hover{
+    background-color:rgb(184, 108, 76);
+}
+.btn-style.btn-yellow{
+    background-color:rgba(245,208,5,1);
+}
+.btn-style.btn-yellow:hover{
+    background-color:rgb(199, 173, 26);
+}
+.btn-style.btn-blue{
+    background-color:rgba(85,154,200,1);
+}
+.btn-style.btn-blue:hover{
+    background-color:rgb(72, 132, 172);
+}
+/* renderTitle */
+#renderTitle{
+    color:rgba(138,130,204,1);
+}
+
+/* hr-box */
+.hr-box{
+    margin-bottom:76px;
+    border: none;
+    border-top: medium dashed rgba(85,154,200,1);
+    color: grey;
+    overflow: visible;
+}
